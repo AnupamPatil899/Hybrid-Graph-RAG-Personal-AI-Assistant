@@ -16,7 +16,7 @@ A Graph-based Retrieval-Augmented Generation (RAG) chatbot utilizing LlamaIndex,
 
 1. **Clone the repository:**
    ```bash
-   git clone [(https://github.com/AnupamPatil899/Hybrid-Graph-RAG-Personal-AI-Assistant.git)]
+   git clone https://github.com/AnupamPatil899/Hybrid-Graph-RAG-Personal-AI-Assistant.git
    cd Graph_Based_RAG
    ```
 
