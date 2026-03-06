@@ -1,86 +1,99 @@
-# Task: Extract portfolio data for Anupam's Digital Clone
-
-## Plan
-1. [x] Open portfolio URL: https://anupampatil899-portfolio.lovable.app/
-2. [x] Extract textual information (Projects, Courses, Experiences, Skills, etc.)
-3. [x] Scroll and capture all relevant data
-4. [x] Format data into Markdown
-5. [ ] Save to `c:\Users\anupa\OneDrive\Desktop\Anupam\workshop\ML\RAG\Graph_Based_RAG\portfolio_data.md` (Note: Restriction on writing to this path directly in subagent environment)
-
-## Data Collected (Final Markdown Format)
-
 # Anupam Patil - Portfolio Data
 
-## Profile
-- **Name:** Anupam Patil
+## Personal Information
+- **Full Name:** Anupam Patil
 - **Title:** AI & Bioinformatics Engineer
 - **Bio:** I build intelligent systems at the intersection of artificial intelligence and bioinformatics. Passionate about leveraging machine learning to unlock insights from complex biological data.
 - **Contact:**
-  - **GitHub:** [anupampatil899](https://github.com/anupampatil899)
-  - **LinkedIn:** [anupampatil899](https://linkedin.com/in/anupampatil899)
   - **Email:** anupampatil899@gmail.com
-  - **Resume:** [Download Resume](https://anupampatil899-portfolio.lovable.app/AnupamSanjayPatil_Resume.pdf)
+  - **LinkedIn:** [anupampatil899](https://linkedin.com/in/anupampatil899)
+  - **GitHub:** [anupampatil899](https://github.com/anupampatil899)
+  - **Resume:** [Download PDF](https://anupampatil899-portfolio.lovable.app/AnupamSanjayPatil_Resume.pdf)
 
 ## Projects
 
-### Microbiome Data Analysis Pipeline
-- **Technologies:** Python, Snakemake, R, Docker
-- **Description:** Scalable pipeline for analysis of large-scale metagenomic datasets.
+### Hybrid Graph-RAG Personal AI Assistant
+- **Technologies:** Python, LlamaIndex, Google Gemini, Streamlit, Knowledge Graphs
+- **Description:** Graph-based Retrieval-Augmented Generation system that builds a knowledge graph from personal portfolio data and enables contextual querying using LLMs. Acts as a digital clone of Anupam Patil.
+- **GitHub:** https://github.com/AnupamPatil899/Hybrid-Graph-RAG-Personal-AI-Assistant
 
-### Automated Job-Description Scoring Agent
-- **Technologies:** Python, LangChain, OpenAI, FastAPI
-- **Description:** AI agent that automatically scores resumes against job descriptions.
+### AI Job Intelligence Agent
+- **Technologies:** n8n, LangChain, Groq API, Python, Telegram API
+- **Description:** Automated job-monitoring agent that extracts job postings, analyzes skill match using LLMs, and sends real-time alerts when roles exceed a defined compatibility threshold.
+- **GitHub:** https://github.com/AnupamPatil899/AI-job-intelligence-agent
 
-### Protein Structure Prediction Tool
-- **Technologies:** PyTorch, Transformers, BioPython
-- **Description:** Deep learning model for predicting 3D protein structures from sequences.
+### UpgradeIQ: SaaS Subscription Upgrade Prediction
+- **Technologies:** Python, Scikit-learn, XGBoost, SMOTE, Pandas
+- **Description:** Machine learning pipeline that predicts user subscription upgrades using behavioral metrics, feature engineering, and class imbalance handling with SMOTE.
+- **GitHub:** https://github.com/AnupamPatil899/UpgradeIQ-Smart-Prediction-of-Subscription-Upgrades-via-Behavioral-Modeling
 
-### Clinical Trial Data Dashboard
-- **Technologies:** React, D3.js, TypeScript, Supabase
-- **Description:** Interactive dashboard for visualizing and analyzing clinical trial results.
+### Microbiome Data Processing & Analysis Pipeline
+- **Technologies:** Python, Bioinformatics, Data Pipelines, SQL, Microbiome Analysis
+- **Description:** Automated workflow for processing microbiome sequencing outputs, performing taxonomic profiling, and integrating results with clinical metadata for downstream analysis.
 
-## Courses & Education
+### Breast Cancer Prediction using Artificial Neural Networks
+- **Technologies:** Python, TensorFlow, Keras, Scikit-learn, Deep Learning
+- **Description:** Deep learning model for classifying breast tumors as malignant or benign using the Breast Cancer Wisconsin dataset with TensorFlow/Keras and advanced callback-based optimization.
+- **GitHub:** https://github.com/AnupamPatil899/ANN_Projects
 
-### Building LLM Applications with Prompt Engineering
-- **Institution:** Nvidia Deep Learning Institute
-- **Date:** 2026
+## Education
 
-### B.E in Biotechnology
-- **Institution:** Dayananda Sagar College of Engineering
-- **Date:** 2021-2025
+### B.E in Biotechnology (2021 - 2025)
+- **Institution:** Dayananda Sagar College of Engineering, Bangalore, India
+- **Description:** Integrated biotechnology with computational biology, applying machine learning and statistical modeling to high-dimensional omics datasets.
+- **Focus Areas:** Machine Learning for Genomics, Computational Biology, Microbiome Data Analysis, Biostatistics, High-Dimensional Data Modeling, Systems Biology, Data-Driven Biological Research.
 
-## Achievements & Certifications
+## Courses & Certifications
 
-### Google Cloud Builder Day (2026)
-- **Focus:** Vertex AI, serverless applications.
+### Applied Data Science Lab (2025)
+- **Institution:** WorldQuant University Programs
+- **Topics:** Applied data science skills including data analysis, machine learning workflows, and statistical modeling.
+
+### Python with Machine Learning (2025)
+- **Institution:** Sure Trust
+- **Topics:** Python programming, supervised and unsupervised machine learning algorithms.
 
 ### Introduction to Workflow Automation with n8n (2026)
-- **Certification:** Workflow automation using n8n.
+- **Institution:** Datacamp
+- **Topics:** Building automated workflows, connecting APIs, and designing multi-step automation pipelines using n8n.
 
-### Containerization and Virtualization Concepts, Intro to Docker & Kubernetes (2025)
-- **Certification:** Docker, Kubernetes.
+### Containerization and Virtualization Concepts, Docker & Kubernetes (2025)
+- **Institution:** Datacamp
+- **Topics:** Docker containers, Kubernetes orchestration, and cloud-native application deployment.
+
+## Achievements & Events
+
+### Google Cloud Builder Day (2026)
+- **Focus:** Attended Google Cloud workshop covering Vertex AI and serverless application development.
 
 ### Bangalore Tech Summit (2025)
-- **Event:** Participated in the Bangalore Tech Summit.
+- **Focus:** Participated in the summit hosted by the Dept of E, IT & BT (Government of Karnataka).
 
 ### AWS Gen AI Loft (2025)
-- **Event:** Participated in the AWS Gen AI Loft.
+- **Focus:** Participated in the AWS Gen AI Loft event focused on generative AI tools and services.
 
 ## Publications
 
 ### Bioremediation of acrylonitrile using bacterial isolates from soil and water under aerobic conditions
-- **Journal:** Bioremediation Journal, Taylor & Francis
-- **Date:** 2025
+- **Authors:** Supreetha K., Saroja Narsing Rao, Anupam Sanjay Patil & Rajeswari N.
+- **Journal:** Bioremediation Journal (Taylor & Francis), 2025
+- **Link:** https://www.tandfonline.com/doi/full/10.1080/10889868.2025.2489962
 
 ### Biomass energy: The potential, future prospects, and challenges in the path toward environmental sustainability in clean energy
-- **Book:** One Planet, One Health, One Future
-- **Publisher:** Academic Press, Elsevier
-- **Date:** 2026
+- **Authors:** Supreetha K., Anupam Sanjay Patil, Ashoka, Shubham Shiralkar, Pururava H, Suhas Hebbar, N. Rajeswari, Priya S
+- **Publisher:** One Planet, One Health, One Future, Academic Press (Elsevier), 2026
+- **Link:** https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780443383250000319
 
-## Skills (Inferred)
-- **Programming Languages:** Python, R, JavaScript, TypeScript, Snakemake.
-- **AI & Machine Learning:** LLMs, Prompt Engineering, PyTorch, Transformers, OpenAI, LangChain, Vertex AI, Generative AI.
-- **Bioinformatics Tools:** BioPython, Metagenomic analysis.
-- **Cloud & DevOps:** Google Cloud (Vertex AI), Docker, Kubernetes, Supabase.
-- **Web Development & Visualization:** React, D3.js.
-- **Automation:** n8n Workflow Automation.
+## Skills
+
+### Interdisciplinary Domains
+- AI in Bioinformatics, Computational Biology, Systems Biology, Genomics.
+
+### Machine Learning & AI
+- LlamaIndex, LLMs (Gemini, Groq), Scikit-learn, TensorFlow, Keras, ANN, XGBoost, SMOTE.
+
+### Bioinformatics Tools
+- Microbiome Analysis, Taxonomic Profiling, PyMOL, GROMACS.
+
+### Tools & Infrastructure
+- n8n, LangChain, Docker, Kubernetes, Git, SQL, Streamlit, Python, Pandas.
